@@ -1,0 +1,36 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: crimson;
+    z-index: 999;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+}
+.navbar .menue li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menue li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 25px;
+}
+/*icons styling*/
+.menue-btn, .close-btn{
+    display: none;
+    cursor: pointer;
+}

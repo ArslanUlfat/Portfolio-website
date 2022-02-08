@@ -1,0 +1,65 @@
+section{
+    padding: 100px 0;
+}
+.service{
+    background: #111;
+    color: #fff;
+}
+
+.service .title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.service .title::before{
+    content: '';
+    position: absolute;
+    bottom: -947px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #fff;;
+    transform: translateX(-50%);
+}
+
+.service .title::after{
+    content: 'what i offer';
+    position: absolute;
+    bottom: -965px;
+    left: 50%;
+    color: crimson;
+    background: rgba(17, 17, 17);
+    padding: 5px;
+    font-size: 20px;
+    
+    transform: translateX(-50%);
+}
+
+.service .service-content .card{
+    width: 30%;
+    background: #333;
+    text-align: center;
+    border-radius: 6px;
+}
+.service .service-content .card p{
+    padding: 20px;
+    text-align: justify;
+}
+.service .service-content .card .box .text{
+    font-size: 25px;
+    color: crimson;
+    margin: 10px 0 7px 0;
+}
+.service .service-content .card{
+    transition: all 0.5s ease;
+}
+.service .service-content .card:hover{
+    background: crimson;
+    transform: translateY(-5%)
+    
+}
+.service .service-content .card:hover .text{
+    color: #fff;
+}

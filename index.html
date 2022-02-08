@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-PortFolio</title>
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/navbar.css" />
+    <link rel="stylesheet" href="assets/CSS/media-query.css" />
+    <link rel="stylesheet" href="assets/CSS/button-style.css" />
+    <link rel="stylesheet" href="assets/CSS/about-section.css" />
+    <link rel="stylesheet" href="assets/CSS/about-section-media-query.css" />
+    <link rel="stylesheet" href="assets/CSS/services-section.css" />
+    <link rel="stylesheet" href="assets/CSS/service-media-query.css" />
+    <link rel="stylesheet" href="assets/CSS/skill-section.css" />
+    <link rel="stylesheet" href="assets/CSS/skill-media-query.css" />
+    <link rel="stylesheet" href="assets/CSS/contact-section.css" />
+    <link rel="stylesheet" href="assets/CSS/contact-media-query.css">
+    <link rel="stylesheet" href="assets/CSS/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="">Portfo<span>lio.</span></a>
+        </div>
+        <ul class="menue" id="navId">
+          <div class="close-btn">
+            <img
+              src="assets/images/icons/close.png"
+              alt=""
+              onclick="hideMenue()"
+            />
+          </div>
+          <li><a href="#home" class="menue-btn">Home</a></li>
+          <li><a href="#about" class="menue-btn">About</a></li>
+          <li><a href="#service" class="menue-btn">Services</a></li>
+          <li><a href="#skill" class="menue-btn">Skills</a></li>
+          <li><a href="#contact" class="menue-btn">Contact</a></li>
+        </ul>
+
+        <div class="menue-btn">
+          <img src="assets/images/icons/bar.png" alt="" onclick="showMenue()" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section start -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hi there, I am</div>
+          <div class="text-2">Muhammad Arslan.</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="" class="a">Hire me</a>
+        </div>
+      </div>
+    </section>
+
+    <!---About Sectio Start-->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About</h2>
+        <div class="about-content">
+          <div class="column-left">
+            <img src="assets/images/about/arslan-4.png" alt="" />
+          </div>
+          <div class="column-right">
+            <div class="text">
+              I'm Muhammad Arslan and I'm <span>Software Engineer</span>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              minus iste fugit autem nobis, modi dicta aut aliquid commodi enim
+              odio ducimus! Suscipit omnis, vel magnam mollitia porro iure
+              tempore?
+            </p>
+            <a href="" class="a">Download Cv</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Service Section-->
+    <section class="service" id="service">
+      <div class="max-width">
+        <h2 class="title">My Services</h2>
+        <div class="service-content">
+          <div class="card">
+            <div class="box">
+              <div class="text">Web Design</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                illum ullam? Consequatur nulla, soluta eaque, aliquam velit
+                culpa cupiditate laudantium eveniet voluptates vel at ipsum
+                accusamus autem dolore, odio inventore?
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <div class="text">Mobile App Design</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                illum ullam? Consequatur nulla, soluta eaque, aliquam velit
+                culpa cupiditate laudantium eveniet voluptates vel at ipsum
+                accusamus autem dolore, odio inventore?
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <div class="text">Desktop Apps Development</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                illum ullam? Consequatur nulla, soluta eaque, aliquam velit
+                culpa cupiditate laudantium eveniet voluptates vel at ipsum
+                accusamus autem dolore, odio inventore?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----Skills Section start-->
+
+    <section class="skill" id="skill">
+      <div class="max-width">
+        <h2 class="title">My Skill</h2>
+        <div class="skill-content">
+          <div class="column left">
+            <div class="text">My Creative Skills & Experiences</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatem non totam minima provident eligendi nulla soluta illo
+              officia eum ducimus assumenda dolore doloremque optio repellendus,
+              quod vel. Magni, rem optio.
+            </p>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>Html5</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>CSS3</span>
+                <span>70%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Javascript</span>
+                <span>60%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>PHP</span>
+                <span>90%</span>
+              </div>
+              <div class="line php"></div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>MySql</span>
+                <span>80%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----Contact Section start-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+              cum.
+            </p>
+            <div class="row">
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Muhammad Arslan</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Sahiwal, Pakistan</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">abc@gmail.com</div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Message Me</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Name" required/>
+                </div>
+                <div class="field mail">
+                  <input type="email" placeholder="Email" required/>
+                </div>
+                
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subject" required/>
+              </div>
+              <div class="field textarea">
+              <textarea cols="30" rows="10" placeholder="Describe Project..." required ></textarea>
+            </div>
+              <div class="button">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----Contact Section Ends-->
+<!---Footer Section start-->
+<footer>
+  <p>Made with <span>Love</span> by <span>Muhammad Arslan</span></p>
+</footer>
+<!---Footer Section ends-->
+    <!---Js for toggle menue-->
+    <script>
+      var navbar = document.getElementById("navId");
+      function showMenue() {
+        navbar.style.left = "0";
+      }
+      function hideMenue() {
+        navbar.style.left = "-100%";
+      }
+    </script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@media (max-width:880px) {
+  .service .service-content .card {
+    width: 48%;
+    margin-bottom: 10px;
+    height: 300px;
+  }
+}
+
+@media (max-width:750px) {
+    .service .max-width .service-content .card {
+      width: 100%;
+      margin-bottom: 10px;
+      height: 200px;
+    }
+  }

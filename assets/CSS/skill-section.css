@@ -1,0 +1,72 @@
+section{
+    padding: 100px 0;
+}
+.skill .title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.skill .skill-content .column{
+    width: calc(50% - 30px);
+}
+
+.skill .skill-content .left .text{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.skill .skill-content .left p{
+    text-align: justify;
+}
+.skill .skill-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skill .skill-content .right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill .skill-content .right .bars span{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.skill .skill-content .right .line{
+    height: 5px;
+    width: 100%;
+    background:lightgrey;
+    position: relative;
+}
+
+.skill .skill-content .right .line::before{
+   content: "";
+   position: absolute;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background: crimson;
+}
+
+.skill .skill-content .right .html::before{
+    width: 90%;
+}
+.skill .skill-content .right .css::before{
+    width: 70%;
+}
+.skill .skill-content .right .js::before{
+    width: 60%;
+}
+.skill .skill-content .right .php::before{
+    width: 90%;
+}
+.skill .skill-content .right .mysql::before{
+    width: 80%;
+}
+
+
+

@@ -1,0 +1,119 @@
+section{
+    padding: 100px 0;
+}
+
+.contact{
+    background: #111;
+    color: #fff;
+}
+
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .left .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p{
+    text-align: justify;
+}
+
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info{
+    margin-top: 30px;
+}
+
+.contact .contact-content .row .info .head{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.contact .contact-content .row .info .sub-title{
+    font-size: 18px;
+    color: crimson;
+}
+.contact .right .text{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .right form .fields{
+    display: flex;
+}
+
+
+.contact .right form .field,
+.contact .right form .fields .field
+{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea
+
+{
+   height: 100%;
+   width: 100%;
+   border: 1px solid crimson;
+   border-radius: 6px;
+   outline: none;
+   padding: 0 15px;
+   font-size: 17px;
+}   
+
+.contact .right form .name{
+    margin-right:10px;
+}
+
+.contact .right form .mail{
+    margin-left:10px;
+}
+
+.contact .right form .textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button{
+    width: 100%;
+    height: 47px;
+}
+
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border:2px solid crimson;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contact .right form .button button:hover{
+color: crimson;
+background: transparent;
+}
+
+
+
+
+

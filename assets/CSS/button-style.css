@@ -1,0 +1,32 @@
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid crimson;
+    transition: all 0.5s ease;
+}
+.home .home-content a:hover{
+    background: transparent;
+    color: crimson
+}
+
+.about .about-content .column-right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+
+}
+.about .about-content .column-right a:hover{
+    background: transparent;
+    color: crimson
+}
